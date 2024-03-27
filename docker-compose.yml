@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  hw-app.jar:
+    build: .
+    image: hw-app.jar:1.0
+    ports:
+      - '9999:9999'
